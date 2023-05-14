@@ -6,10 +6,10 @@ milestones.coords = data.frame(
   lat = c(28.53551, 21.1458, 30.73331, 12.06239, 10.16315),
   lon = c(77.39102, 79.08815, 76.77941, 78.58567, 76.64127),
   city = c(
-    "Noida, Uttar Pradesh",
-    "Nagpur, Maharashtra",
+    "Noida",
+    "Nagpur",
     "Chandigarh",
-    "Katpadi, Tamil Nadu",
+    "Katpadi",
     "Kerala"
   ),
   remark = c(
@@ -40,7 +40,7 @@ map = map +
   labs(
     x = "Longitude",
     y = "Latitude",
-    title = "(Fig. 6) State of Digital Payments in India",
+    title = "State of Digital Payments in India",
     subtitle = "A variety of Indian states have seen rapid growth in digital financial infrastructure.",
     color = "Location"
   ) +
